@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_JelgAJpiEfGzPIDLsH3vBw" name="sinistres" dataPackage="_JelgAZpiEfGzPIDLsH3vBw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fatma/Desktop/astree/donnees_assurance_nettoyees.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sinistres" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Sinistres:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_JelgAZpiEfGzPIDLsH3vBw" name="default" dataManager="_JelgAJpiEfGzPIDLsH3vBw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JemHEJpiEfGzPIDLsH3vBw" id="_tqMzEJphEfGzPIDLsH3vBw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHEZpiEfGzPIDLsH3vBw" label="Claim_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHEppiEfGzPIDLsH3vBw" label="Contract_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHE5piEfGzPIDLsH3vBw" label="Client_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHFJpiEfGzPIDLsH3vBw" label="Vehicle_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHFZpiEfGzPIDLsH3vBw" label="Date_Sinistre_Claim" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHFppiEfGzPIDLsH3vBw" label="Type_Sinistre_Claim" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHF5piEfGzPIDLsH3vBw" label="Description_Sinistre_Claim" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHGJpiEfGzPIDLsH3vBw" label="Montant_Estime_Dommage_Claim" length="100" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHGZpiEfGzPIDLsH3vBw" label="Montant_Indemnisation_Claim" length="100" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHGppiEfGzPIDLsH3vBw" label="Est_Frauduleux_Claim" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHG5piEfGzPIDLsH3vBw" label="Statut_Sinistre_Claim" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHHJpiEfGzPIDLsH3vBw" label="Incoherence_Dommages" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHHZpiEfGzPIDLsH3vBw" label="Nature_Sinistre_Consistante" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHHppiEfGzPIDLsH3vBw" label="Flag_Description_Grave" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHH5piEfGzPIDLsH3vBw" label="Cible_Triage" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHIJpiEfGzPIDLsH3vBw" label="Prediction_RF" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JemHIZpiEfGzPIDLsH3vBw" label="Prediction_XGB" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

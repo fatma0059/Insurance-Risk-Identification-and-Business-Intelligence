@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_L0j1sJpeEfGzPIDLsH3vBw" name="vehicules" dataPackage="_L0j1sZpeEfGzPIDLsH3vBw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fatma/Desktop/astree/donnees_assurance_nettoyees.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Vehicules" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Vehicules:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_L0j1sZpeEfGzPIDLsH3vBw" name="default" dataManager="_L0j1sJpeEfGzPIDLsH3vBw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L0j1sppeEfGzPIDLsH3vBw" id="_nl2AwJpdEfGzPIDLsH3vBw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1s5peEfGzPIDLsH3vBw" label="Vehicle_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1tJpeEfGzPIDLsH3vBw" label="Contract_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1tZpeEfGzPIDLsH3vBw" label="Type_Vehicule" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1tppeEfGzPIDLsH3vBw" label="Marque" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1t5peEfGzPIDLsH3vBw" label="Modele" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1uJpeEfGzPIDLsH3vBw" label="Annee_Modele" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1uZpeEfGzPIDLsH3vBw" label="Puissance_Fiscale" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1uppeEfGzPIDLsH3vBw" label="Kilometrage_Actuel" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1u5peEfGzPIDLsH3vBw" label="Valeur_Vehicule" length="20" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1vJpeEfGzPIDLsH3vBw" label="Immatriculation" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L0j1vZpeEfGzPIDLsH3vBw" label="Usage_Vehicule" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

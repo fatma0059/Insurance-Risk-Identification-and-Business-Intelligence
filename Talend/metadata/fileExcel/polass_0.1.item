@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_4GXscJpgEfGzPIDLsH3vBw" name="polass" dataPackage="_4GYTgJpgEfGzPIDLsH3vBw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fatma/Desktop/astree/donnees_assurance_nettoyees.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Polices_Assurance" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Polices_Assurance:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4GYTgJpgEfGzPIDLsH3vBw" name="default" dataManager="_4GXscJpgEfGzPIDLsH3vBw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4GYTgZpgEfGzPIDLsH3vBw" id="_pSOisJpgEfGzPIDLsH3vBw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GYTgppgEfGzPIDLsH3vBw" label="Contract_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GYTg5pgEfGzPIDLsH3vBw" label="Client_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GYThJpgEfGzPIDLsH3vBw" label="Date_Debut_Contrat" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GY6kJpgEfGzPIDLsH3vBw" label="Date_Fin_Contrat" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GY6kZpgEfGzPIDLsH3vBw" label="Type_Couverture" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GY6kppgEfGzPIDLsH3vBw" label="Prime_Assurance_Annuelle" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GY6k5pgEfGzPIDLsH3vBw" label="Nb_Sinistres_Precedents" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4GY6lJpgEfGzPIDLsH3vBw" label="Delai_Souscription_Sinistre_Jours" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

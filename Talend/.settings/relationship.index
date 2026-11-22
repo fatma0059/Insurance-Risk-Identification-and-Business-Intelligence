@@ -1,0 +1,107 @@
+[ {
+  "baseItem" : {
+    "id" : "_v3kiMJpkEfGzPIDLsH3vBw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_7a8ewJpkEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7a8ewJpkEfGzPIDLsH3vBw - dim_clients",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7a8ewJpkEfGzPIDLsH3vBw - dim_temps",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7a8ewJpkEfGzPIDLsH3vBw - dim_vehicules",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7a8ewJpkEfGzPIDLsH3vBw - fact_polass",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7a8ewJpkEfGzPIDLsH3vBw - fact_sinistres",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw - clients",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw - polass",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw - sinistres",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw - temps",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw - vehicules",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yZpbMJpVEfGzPIDLsH3vBw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_4GV3QJpgEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_JekR4JpiEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_L0inkJpeEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_d6qKUJpcEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ogytcJpaEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_qjj80JpiEfGzPIDLsH3vBw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_4GV3QJpgEfGzPIDLsH3vBw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_JekR4JpiEfGzPIDLsH3vBw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_L0inkJpeEfGzPIDLsH3vBw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_d6qKUJpcEfGzPIDLsH3vBw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_qjj80JpiEfGzPIDLsH3vBw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
